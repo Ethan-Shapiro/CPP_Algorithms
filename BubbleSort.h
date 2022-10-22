@@ -4,10 +4,13 @@
 
 #ifndef ALGORITHMS_BUBBLESORT_H
 #define ALGORITHMS_BUBBLESORT_H
+using namespace std;
+#include <iostream>
 
 
 class BubbleSort {
-    
+    public:
+        static void sort(int arr[], int arrLen);
 };
 
 
